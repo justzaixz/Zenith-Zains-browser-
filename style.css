@@ -113,7 +113,7 @@
         }
         
             .display:hover {
-                box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5); /* Increase the spread radius to extend the shadow */
+                box-shadow: 0 0 20px 15px rgba(255, 255, 255, 0.5); /* Increase the spread radius to extend the shadow */
                 border-radius: 24px;
                 transition: 0.5s;
             }
