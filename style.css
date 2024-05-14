@@ -12,50 +12,45 @@
     }
 }
 
-        
-        body {
-            margin: 0px;
-            background-color: black;
-            height: 100vh;
-            display: grid;
-            place-items: center;
-            position: relative; /* Add this to make absolute positioning relative to bodys*/
-        }
+body {
+    margin: 0px;
+    background-color: black;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    position: relative; /* Add this to make absolute positioning relative to body */
+}
 
 
 
-     
-     
-     
-        .zoom-button {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            position: absolute;
-            bottom: 35%;
-        }
 
 
-        .zoom-button button {
+.zoom-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 35%;
+}
+
+.zoom-button button {
     background-color: white;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 2.5vmin;
-    color:white;
+    color: white;
     background-color: black;
-    cursor:pointer;
+    cursor: pointer;
     height: 7vmin;
-    width:7vmin;
-    border: 0.4vmin solid rgb(200,200,200);
+    width: 7vmin;
+    border: 0.4vmin solid rgb(200, 200, 200);
     border-radius: 100%;
     transition: transform 0.3s, box-shadow 0.3s; /* Removed background-color transition */
 }
 
-        
-        
-        .zoom-button button:hover {
+.zoom-button button:hover {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Glow effect */
 }
 
@@ -89,9 +84,11 @@
 .zoom-button button.clicked:hover:after {
     background-color: rgba(255, 255, 255, 0.5); /* Glow effect on pseudo-element */
 }
-    
-    
-    
+
+
+
+
+
 
 
 
@@ -99,30 +96,25 @@
 .display {
     width: 500px; /* Adjust width as needed */
     margin-bottom: 20px; /* Add spacing below search input */
-
-    border-radius: 24px; /* Initial border radius */
-
 }
 
-        .display input[type="text"] {
-            width: 100%;
-            height: 40px; /* Adjust height as needed */
-            font-size: 16px;
-            padding: 10px;
-            border: 1px solid #dfe1e5; /* Add border similar to Google */
-            border-radius: 24px; /* Make the input rounded */
-            background-color: #fff; /* Set background color for input */
-            outline: none; /* Remove outline on focus */
-            transition: box-shadow 0.5s;
-        }
 
-        .display input[type="text"]:focus {
-            border-color: #6e6f72; /* Change border color on focus */
-        }
-        
 
-        
-        
+
+.display input[type="text"] {
+    width: 100%;
+    height: 40px; /* Adjust height as needed */
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #dfe1e5; /* Add border similar to Google */
+    border-radius: 24px; /* Make the input rounded */
+    background-color: #fff; /* Set background color for input */
+    outline: none; /* Remove outline on focus */
+}
+
+.display input[type="text"]:focus {
+    border-color: #6e6f72; /* Change border color on focus */
+}
 
 
 
@@ -138,6 +130,8 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+
 
 /* Style the options within the select element */
 .dropdown select option {
