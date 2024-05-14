@@ -24,8 +24,6 @@
 
 
 
-
-
         .zoom-button {
             display: flex;
             justify-content: center;
@@ -112,14 +110,11 @@
             border-color: #6e6f72; /* Change border color on focus */
         }
         
-        .display:hover {
-            box-shadow: 
-                5px 0 0  rgba(255, 255, 255, 0.5), /* Horizontal shadow */
-                0 0 20px rgba(255, 255, 255, 0.5); /* Vertical shadow */
-            border-radius: 24px;
-            transition: 0.5s;
-        }
-        
+            .display:hover {
+                box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5); /* Increase the spread radius to extend the shadow */
+                border-radius: 24px;
+                transition: box-shadow 0.5s;
+            }
 
 
         
