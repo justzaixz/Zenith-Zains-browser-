@@ -1,14 +1,14 @@
 /* For devices with a maximum width of 768px */
 @media only screen and (max-width: 768px) {
     body {
-        width: 1024px × 768px; /* Adjust the width as needed */
+        width: 1024px * 768px; /* Adjust the width as needed */
     }
 }
 
 /* For devices with a maximum width of 576px */
 @media only screen and (max-width: 576px) {
     body {
-        width: 360px × 640px; /* Adjust the width as needed */
+        width: 360px * 640px; /* Adjust the width as needed */
     }
 }
 
@@ -20,10 +20,6 @@ body {
     place-items: center;
     position: relative; /* Add this to make absolute positioning relative to body */
 }
-
-
-
-
 
 .zoom-button {
     display: flex;
@@ -85,21 +81,10 @@ body {
     background-color: rgba(255, 255, 255, 0.5); /* Glow effect on pseudo-element */
 }
 
-
-
-
-
-
-
-
-
 .display {
     width: 500px; /* Adjust width as needed */
     margin-bottom: 20px; /* Add spacing below search input */
 }
-
-
-
 
 .display input[type="text"] {
     width: 100%;
@@ -115,9 +100,6 @@ body {
 .display input[type="text"]:focus {
     border-color: #6e6f72; /* Change border color on focus */
 }
-
-
-
     /* Style the select element */
 .dropdown select {
     appearance: none; /* Remove default styles */
