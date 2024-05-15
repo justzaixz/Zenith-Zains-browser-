@@ -8,7 +8,7 @@
 /* For devices with a maximum width of 576px */
 @media only screen and (max-width: 576px) {
     body {
-        width: 360px × 640px; /* Adjust the width as needed */
+        width: 160px * 340px; /* Adjust the width as needed */
     }
 }
 
