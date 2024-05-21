@@ -1,16 +1,4 @@
-/* For devices with a maximum width of 768px */
-@media only screen and (max-width: 768px) {
-    body {
-        width: 100%; /* Responsive design */
-    }
-}
 
-/* For devices with a maximum width of 576px */
-@media only screen and (max-width: 576px) {
-    body {
-        width: 100%; /* Responsive design */
-    }
-}
 
 body {
     margin: 0;
