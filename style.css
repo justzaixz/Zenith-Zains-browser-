@@ -60,9 +60,10 @@ body {
     padding: 10px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
-    background-color: grey;
+    background-color: rgb(49, 49, 49);
     outline: none;
     border-color: black;
+    color:white
     
 }
 
