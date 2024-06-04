@@ -60,12 +60,14 @@ body {
     padding: 10px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
-    background-color: #fff;
+    background-color: grey;
     outline: none;
+    border-color: black;
+    
 }
 
 .display input[type="text"]:focus {
-    border-color: #6e6f72;
+    border-color: #ffffff;
 }
 
 .dropdown select {
