@@ -97,7 +97,7 @@ body {
     background: transparent;
     border: none; /* Remove border if any */
     padding: 0; /* Remove padding if any */
-    left: 37%;
+    left: 30%;
 }
 
 .display::after {
@@ -136,7 +136,7 @@ body {
 
 .google-image {
     position: absolute;
-    left: 33%; /* changes the distance from the left */
+    left: 27%; /* changes the distance from the left */
     top: 25%; /* changes the distance from the top */
 }
 
